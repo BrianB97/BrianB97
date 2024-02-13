@@ -1,0 +1,305 @@
+.campaignFeatured{
+    position: relative;
+}
+.hashTag-snippet{
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    color: #fff;
+    max-width: 1200px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: table;
+    width: 90%;
+    right: 0;
+    margin: auto;
+}
+.hashTag-snippet h2{
+    font-size: 30px;
+    font-family: 'GothamBold';
+    padding: 15px 0;
+}
+.hashTag-snippet p{
+    font-size: 16px;
+}
+.hashTag-snippet >div{
+    max-width: 500px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+/*.donation-container {*/
+    /*font-weight: 500;*/
+    /*font-size: 12px;*/
+    /*margin-top: 30px;*/
+/*}*/
+
+.donation-container  >div{
+    max-width: 390px;
+    background-color: #cf5821;
+    background-image: url("images/form-bg.jpg");
+    border-radius: 5px;
+    padding: 30px 0;
+    position: relative;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.donation-container  .title {
+    color: #656565;
+    padding-bottom: 12px;
+    font-size: 22px;
+    font-family: 'GothamBold';
+}
+
+.donation-container  .donate-button {
+    background-color: #499561;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    bottom: 0px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
+.donation-container  .fields {
+    width: 100%;
+    display: block;
+    border: 1px solid #e0dfdf;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.donation-container  .fields input {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 4px;
+    border-width: 0px;
+    color: #5C5C5C;
+    font-weight: 500;
+    margin-top: 10px;
+    -webkit-font-smoothing: antialiased;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.donation-container  .amount {
+    width: 100%;
+    display: block;
+    /*position: absolute;*/
+    /*top: 60px;*/
+    /*right: 15px;*/
+}
+
+.donation-container  .link_1 {
+
+   margin-top: 20px;
+
+}
+
+.donation-container  .amount .button input {
+    min-width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background-color: #f9f9f9;
+    color: #444444;
+    font-size: 17px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    border: 1px solid #ccc;
+    padding: 10px 8px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.donation-container  .set-amount {
+    max-width: 96px;
+}
+
+.donation-container  .switch-container {
+    margin: 15px auto;
+
+}
+.donation-container  .switch {
+    position: relative;
+    /*top: 190px;*/
+    /*left: 15px;*/
+    /*height: 26px;*/
+    width: 100%;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    overflow: hidden;
+    max-width: 240px;
+    margin: auto;
+}
+
+.donation-container  .switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 49%;
+    line-height: 26px;
+    font-size:15px;
+    color: #5C5C5C;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.donation-container  .switch-label:active {
+    font-weight: bold;
+}
+
+.donation-container  .switch-label-off {
+    padding-left: 2px;
+}
+
+.donation-container  .switch-label-on {
+    padding-right: 2px;
+}
+
+.donation-container  .switch-input {
+    display: none;
+}
+
+.donation-container  .switch-input:checked + .switch-label {
+    color:#fff;
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+
+.donation-container  .switch-input:checked + .switch-label-on ~ .switch-selection {
+    left: 50%;
+    /*right: 0;*/
+}
+
+.donation-container  .switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    /* background: #499561; */
+    /* border-radius: 3px; */
+    background-color: #000000;
+    /* -webkit-transition: left 0.15s ease-out; */
+    /*-moz-transition: left 0.15s ease-out;*/
+    /*-o-transition: left 0.15s ease-out;*/
+    /* transition: left 0.15s ease-out; */
+}
+
+.donation-container  .confirm {
+    display: none;
+    /*position: absolute;*/
+    top: 335px;
+    left: 15px;
+    right: 15px;
+    font-size: 16px;
+
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.donation-container  .confirm i {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.donation-container  .para_1{
+    max-width: 300px;
+    text-align: left;
+}
+
+.donation-container  span.error-input {
+    width: 100%;
+    float: none;
+    font-size: 14px !important;
+    text-align: left;
+}
+.donateContainer{
+    padding:50px 0;
+}
+.two_cols >div{
+    width: 60%;
+    border: 15px solid #fff;
+}
+.two_cols .donation-container{
+    width: 40%;
+    margin: auto;
+
+}
+.two_cols .donation-container form{
+    max-width: 90%;
+    margin: auto;
+
+}
+.two_cols .donation-container form .link_1{
+    display: block;
+}
+.two_cols .donation-container form .heading_1{
+    font-size: 25px;
+    color: #000000;
+}
+
+/* Video Modal
+==========================*/
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: url('images/close.png'),default;
+
+}
+
+.flexy {
+    /*width: 50%;*/
+    /*!* margin: 5% auto; *!*/
+    /*position: relative;*/
+    /*height: 0;*/
+    padding-bottom: 45%;
+    width: 80%;
+    margin-left: 9%;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0%;
+    background: #f0eb3e;
+}
+.flexy iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.9);
+}
+/*===========*/

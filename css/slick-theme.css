@@ -1,0 +1,27 @@
+@charset "UTF-8";.slick-loading .slick-list{background:#fff url('images/ajax-loader.gif') center center no-repeat;}
+@font-face{font-family:'slick';font-weight:normal;font-style:normal;src:url('fonts/slick.eot');src:url('fonts/slick.eot?#iefix') format('embedded-opentype'), url('fonts/slick.woff') format('woff'), url('fonts/slick.ttf') format('truetype'), url('fonts/slick.svg#slick') format('svg');}
+.slick-prev,
+.slick-next{font-size:0;line-height:0;position:relative;bottom:0;display:block;width:20px;height:20px;padding:0;cursor:pointer;color:transparent;border:none;outline:none;background:transparent;}
+.slick-prev:hover,
+.slick-next:hover{opacity:1;}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before{opacity:.25;}
+.slick-prev:before,
+.slick-next:before{font-family:'slick';font-size:20px;line-height:1;opacity:.75;color:white;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.slick-prev{right:-25px;}
+.slick-prev:before{}
+.slick-next{right:-25px;}
+.slick-next:before{}
+/*.slick-slider{margin-bottom:30px;}*/
+.featured1.slick-slider,
+.featured2.slick-slider{direction:ltr;}
+.slick-dots{position:relative;bottom:0;display:block;width:100%;padding:0;list-style:none;text-align:center;}
+.slick-dots li{position:relative;display:inline-block;padding:0;cursor:pointer;}
+.slick-dots li button{font-size:0;line-height:0;display:block;width:7px;height:7px;padding:3px;margin:2px;cursor:pointer;background:#000;opacity:0.5;color:transparent;border:0;outline:none;border-radius:50px;border:2px solid #000;}
+.slick-dots li.slick-active button{background:#000;width:10px;height:10px;opacity: 1}
+.slick-dots li button:hover,
+.slick-dots li button:focus{outline:none;}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before{opacity:1;}
+.slick-dots li button:before{font-family:'slick';font-size:15px;line-height:20px;position:absolute;top:0;left:0;width:15px;height:15px;text-align:center;opacity:.25;color:black;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.slick-dots li.slick-active button:before{opacity:.75;color:black;}
