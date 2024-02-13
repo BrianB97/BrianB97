@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT']."\berns\connection.php") ;
+include($_SERVER['DOCUMENT_ROOT']."\GitHub\BrianB97\connection.php") ;
 ?>
 
 

@@ -47,7 +47,7 @@
   
    
     <div class="site-width copyright">
-        <p>© 2023 Brian All Rights Reserved |  Powered by Brian</p>
+        <p>© 2024 Brian All Rights Reserved |  Powered by Brian</p>
     </div>
 </footer>
 
