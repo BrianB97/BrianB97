@@ -1,0 +1,534 @@
+/*responsive*/
+@media (max-width: 1280px) {
+    .header-fixed .header-limiter nav > div > ul:last-child > li > a {
+        padding: 15px 15px;
+    }
+
+    .header-fixed .header-limiter nav > div > ul > li > a {
+        padding: 51px 10px;
+    }
+
+    .hashtags .site-width > div {
+        width: 50%;
+    }
+
+    .hashtags .site-width > div:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .CloseMenu{
+        display: block;
+    }
+    header nav {
+        position: fixed;
+        background: #3c2f8d;
+        height: 100%;
+        width: 100%;
+        z-index: 9;
+        right: -320px;
+        max-width: 320px;
+        overflow-y: auto;
+        display: block !important;
+        padding: 20px;
+        box-sizing: border-box;
+        -webkit-transition: all .44s cubic-bezier(.19, 1, .22, 1);
+        -moz-transition: all .44s cubic-bezier(.19, 1, .22, 1);
+        -o-transition: all .44s cubic-bezier(.19, 1, .22, 1);
+        transition: all .44s cubic-bezier(.19, 1, .22, 1);
+        z-index: 999;
+    }
+    body:after {
+        opacity: 0;
+        pointer-events: none;
+        -webkit-transition: opacity 0.8s;
+        -moz-transition: opacity 0.8s;
+        -ms-transition: opacity 0.8s;
+        -o-transition: opacity 0.8s;
+        transition: opacity 0.8s;
+    }
+    body.open-mobile-menu:after {
+        content: '';
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background: #000;
+        opacity: 0.5;
+        z-index: 9;
+        pointer-events: auto;
+    }
+    .open-mobile-menu header nav {
+        right: 0;
+    }
+
+    .header-fixed .header-limiter nav > div > ul.mainMenu > li {
+        float: none;
+        text-align: left;
+        border-bottom: 1px dotted  #7e6de6;
+    }
+    .header-fixed .header-limiter nav > div {
+        border-bottom: 1px dotted  #5a47d0;
+    }
+    .header-fixed .header-limiter nav > div > ul.mainMenu > li > a {
+        padding: 10px 0;
+        font-family: 'GothamBlack';
+        font-size: 25px;
+    }
+
+    .header-fixed .header-limiter nav li a {
+        color: #fff;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .header-fixed .header-limiter nav li p {
+        display: none;
+    }
+
+    .menus ul li {
+        margin: 2px 0;
+        font-size: 16px;
+    }
+
+    header .menus ul lh,
+    header .menus ul lh {
+        font-family: inherit;
+        font-size: 16px;
+    }
+
+    header .mainMenu .menus ul {
+        width: 100%;
+        margin: 0;
+    }
+
+    .submenu .site-width {
+        width: 100%;
+    }
+
+    .header-fixed .header-limiter nav > div > ul:last-child li {
+        border: none;
+    }
+
+    .header-fixed .header-limiter  .menuIcon {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .header-fixed .header-limiter  ul.moreMenu li.search ,
+    .header-fixed .header-limiter  ul.moreMenu li.lang {
+        display: none;
+    }
+    .header-fixed .header-limiter .menuIcon  ul.moreMenu li.search ,
+    .header-fixed .header-limiter .menuIcon  ul.moreMenu li.lang {
+        display: block;
+    }
+    .header-fixed .header-limiter nav > div > ul{
+        float: none;
+    }
+    .header-fixed .header-limiter .donate {
+        background: #ded938;
+        width: 100%;
+    }
+    .header-fixed .header-limiter .donate a{
+        color: #3c2f8b!important;
+        width: 100%;
+        padding: 15px 0 !important;
+    }
+    header .menus ul  a:hover {
+        background: yellow;
+        display: table;
+        color: #000;
+        -webkit-transition: all 0s;
+        -moz-transition: all 0s;
+        -ms-transition: all 0s;
+        -o-transition: all 0s;
+        transition: all 0s;
+    }
+    .Page .content >div{
+        width: 100%!important;
+        display: block!important;
+    }
+    .partners ul li {
+        width: 19%;
+    }
+    .Page .content {
+        padding: 20px 0px;
+    }
+    .Page .content div.nav h3#more-about {
+        display: block;
+    }
+    .Page .content div.nav {
+        position: relative;
+    }
+    .Page .content div.nav > div {
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .whatWeDoPage .c-logo > span {
+        font-size: 30px;
+    }
+    /*.numbers .link_1 {*/
+    /*float: none;*/
+    /*margin: auto;*/
+    /*}*/
+
+
+    .hashtags .site-width {
+        display: block;
+    }
+
+    .hashtags .site-width > div {
+        width: 100%;
+        display: block;
+    }
+
+    .takeAction {
+        float: none;
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .takeActionContainer {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .hashtags .site-width > div:nth-child(2) {
+        display: none;
+    }
+
+    /*.services ul{*/
+    /*display: flex;*/
+    /*width: 200%;*/
+    /*}*/
+    /*.services {*/
+    /*overflow: hidden;*/
+    /*overflow-x: auto;*/
+    /*}*/
+    .videos section .toggle {
+        width: 100%;
+        margin: 0;
+    }
+
+    .videos section .cont {
+        position: relative;
+        width: 100%;
+        margin: 1% 0;
+    }
+
+    .homePage .swiper-container {
+        background: #3c2f8b;
+    }
+
+    .featuredSlider .para_1 {
+        position: relative;
+    }
+
+    .para_1 h2 {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .para_1 p {
+        font-size: 14px;
+    }
+
+    .Links.square li > div:first-child {
+        display: none;
+    }
+
+    .Links.square li > div {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer .site-width > div {
+        width: 100%;
+        float: none;
+        margin-bottom: 36px;
+    }
+
+    footer .site-width > div.redes-sociales {
+        width: 250px;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+
+    .social {
+        margin: auto;
+        display: table;
+        margin-top: 2em;
+    }
+
+    footer .site-width.copyright {
+        text-align: center;
+    }
+
+    footer {
+        padding: 30px 0px 5px;
+    }
+
+    .menus ul {
+        text-align: center;
+    }
+
+    .menus ul li {
+        display: block;
+    }
+    .featuredStories-videos>div {
+        width: 55%;
+    }
+    .featuredStories-videos>div:last-child {
+        width: 45%;
+    }
+    .team {
+        width: 48%;
+    }
+    .homePage    .swiper-slide img{
+        width: 150%;
+    }
+}
+
+@media (max-width: 786px) {
+    .whatWeDoPage .services {
+        max-width: 500px;
+    }
+    .whatWeDoPage .services li {
+        width: 100%;
+        margin: 0;
+    }
+    main {
+        width: 95%;
+    }
+    .numbers ul, .numbers > div > div {
+        display: block;
+        width: 100%;
+    }  .numbers li {
+           text-align: center;
+           width: 100%;
+           margin: auto;
+           float: none;
+       }
+
+
+    .CloseMenu {
+        padding: 19px 0;
+    }
+    .Links {
+        display: block;
+    }
+
+    .homePage    .Links.featuredStories ,
+    .homePage  .services {
+        max-width: 500px;
+        direction: ltr;
+    }
+
+    .slick-dots {
+        width: auto;
+        display: table !important;
+        margin: auto;
+    }
+
+    .slick-dots li {
+        opacity: 0.3;
+        width: auto !important;
+        margin: 3px !important;
+    }
+
+    .slick-dots li.slick-active {
+        opacity: 1;
+    }
+
+    .slick-dots li button {
+        margin: 0;
+        background: #3c2f8d !important;
+        border-color: #3c2f8d;;
+    }
+
+    .slick-slide {
+        padding: 22px 0;
+    }
+
+    .videosContainer .link_1 {
+        margin: 20px auto;
+    }
+
+    .services li {
+        width: 98%;
+        margin: 1%;
+    }
+    .whatWeDoPage .services li {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .resports-publications .link:after {
+        opacity: 1;
+    }
+
+    .Links.square li {
+        width: 100%;
+    }
+
+    .Links .link,
+    .campaigns li.link{
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .Links .link {
+        text-align: center;
+    }
+
+    .flash .heading_1 {
+        font-size: 16px;
+    }
+
+    .snippet p {
+        font-size: 16px;
+    }
+
+    .snippet {
+        padding: 0;
+        padding-top: 50px;
+    }
+    .header-fixed .header-limiter h1 {
+        width: 60px;
+        padding: 10px 0;
+    }
+    .partners ul li {
+        width: 24%;
+        background-size: 80px;
+
+    }
+    .parallex {
+        height: 350px;
+    }
+    #background {
+        opacity: 1;
+        background-size: auto 112%;
+        background-position: center;
+    }
+    #foreground .title {
+        font-size: 20px;
+        color: #000;
+    }
+    .title small {
+        color: #000;
+    }
+    .featured>div {
+        display: block;
+        width: 100%
+    }
+    .homePage .swiper-slide img{
+        width: 150%;
+        margin-left: -50%;
+    }
+    .hashTag-snippet {
+        position: relative;
+        color: #000;
+        width: 95%;
+
+    }
+    .hashTag-snippet >div{
+        text-shadow: none;
+    }
+    .two_cols > div{
+        width: 100%!important;
+        display: block;
+        box-sizing: border-box;
+    }
+    .donation-container >div {
+        margin: auto;
+    }
+    .infographics .heading_1{
+        display: none;
+    }
+    .infographics .heading_1.mobile{
+        display: block;
+    }
+    li[class^="item-"] > div {
+        width: 100%;
+        text-align: center;
+    }
+    .hashTag-snippet h2 {
+        font-size: 20px;
+        color: #3c2f8d;
+    }
+    .takeAction h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .featuredStories-videos>div {
+        width: 100% !important;
+    }
+    .featuredStories-videos .Links .link {
+        margin: 0;
+    }
+    .featuredStories-videos .link:after {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+    /*.services ul{*/
+    /*width: 300%;*/
+    /*}*/
+    .featuredSlider img {
+        width: 180%;
+
+    }
+
+    footer .site-width.copyright {
+        max-width: 300px;
+    }
+
+    footer .site-width > div.menus {
+        display: none;
+    }
+
+    .menus ul {
+        /*float: left;*/
+        width: 100%;
+    }
+
+
+
+    .header-fixed .header-limiter nav > div > ul:last-child {
+        margin: 20px 0;
+    }
+    .partners ul li {
+        width: 32%;
+        padding-top: 20%;
+
+    }
+    .team {
+        width: 98%;
+    }
+    .volunteerPage .group-half-inputs p {
+        width: 100%;
+        margin: 0;
+    }
+
+}
+@media (max-width: 515px) {
+    .partners ul li {
+        width: 48%;
+        padding-top: 30%;
+
+    }
+}
+
+/*end responsive*/

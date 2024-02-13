@@ -1,0 +1,254 @@
+
+.input-nao {
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.input-field-nao {
+    padding: 10px 0 8px;
+    width: 100%;
+    background: transparent;
+    font-size: 14px;
+
+    position: relative;
+    display: block;
+    float: right;
+    border: solid #ddd 3px;
+    border-radius: 0;
+    color: #333;
+    font-weight: 400;
+    resize: none;
+    -webkit-appearance: none;
+
+}
+.input-label-nao {
+    position: absolute;
+    top: 15px;
+    font-size: 14px;
+    left: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    pointer-events: none;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: -webkit-transform 0.2s 0.15s, color 1s;
+    -webkit-transition: color 1s, -webkit-transform 0.2s 0.15s;
+    transition: color 1s, -webkit-transform 0.2s 0.15s;
+    transition: transform 0.2s 0.15s, color 1s;
+    transition: transform 0.2s 0.15s, color 1s, -webkit-transform 0.2s 0.15s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+    color: #b2b2b2;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.input-label-content {
+    position: relative;
+    display: block;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.graphic {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    fill: none;
+    max-height: 55px;
+}
+.graphic-nao {
+    stroke: #ccc;
+    pointer-events: none;
+    -webkit-transition: -webkit-transform 0.7s, stroke 0.7s;
+    -webkit-transition: stroke 0.7s, -webkit-transform 0.7s;
+    transition: stroke 0.7s, -webkit-transform 0.7s;
+    transition: transform 0.7s, stroke 0.7s;
+    transition: transform 0.7s, stroke 0.7s, -webkit-transform 0.7s;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+}
+.input-field-nao:focus + .input-label-nao, .input--filled .input-label-nao {
+    color: #3c2f8d;
+    -webkit-transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+    transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.input-field-nao:focus ~ .graphic-nao, .input--filled .graphic-nao {
+    stroke: #3c2f8d;
+    -webkit-transform: translate3d(-66.6%, 0, 0);
+    transform: translate3d(-66.6%, 0, 0);
+}
+.addresssContainer .two_cols:nth-child(2n){
+    direction: rtl;
+}
+.addresssContainer .two_cols:nth-child(2n) .heading_1,
+.addresssContainer .two_cols:nth-child(2n) .heading_2 {
+    text-align: right;
+}
+.addresses span{
+    display: block;
+    color: #333;
+}
+.two_cols{
+    /*margin-bottom: 80px;*/
+    margin-top: 80px;
+    position: relative;
+}
+.two_cols>div{
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+.address {
+    padding-bottom: 20px;
+}
+.address h1 span{
+    color: #000;
+    font-size: 17px;
+    font-family: 'GothamBlack';
+}
+.contactPage .left{
+    background: #eee;
+    overflow: hidden;
+}
+.contactPage .left img{
+    transition: -webkit-transform .25s ease-out;
+    transition: transform .25s ease-out;
+    transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+}
+.contactPage .two_cols:hover  img{
+    /*-webkit-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.contactPage .two_cols:hover  .address h1 span{
+text-decoration: underline;
+}
+.contactPage .two_cols:hover   img{
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+.contactPage .left.form{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.contactPage .left.form >div{
+    max-width: 400px;
+    margin: auto;
+}
+.contactPage  .heading_1 ,
+.contactPage  .heading_2 {
+    text-align: left;
+}
+.contactPage  .heading_1 {
+    font-size: 22px;
+}
+.contactPage .addresses .heading_1{
+    /*text-align: center;*/
+}
+.contactPage  form{
+    padding-top: 35px;
+}
+.contactPage .redes-sociales{
+    margin-top: 30px;
+}
+.contactPage .social{
+    margin-top: 0;
+    margin-left: -15px;
+    /*opacity: 0.5;*/
+}
+.contactPage .social:hover li { opacity:0.5; }
+.contactPage .social  li { transition-property: opacity; transition-duration: 500ms; }
+.contactPage .social  li:hover { opacity:1; }
+.contactPage .map__container {
+    padding: 0;
+    position: relative;
+    background: rgb(242,242,242);
+    background: -moz-linear-gradient(to left, rgb(238, 238, 238) 0%,rgb(74, 54, 133) 100%);
+    background: -webkit-linear-gradient(to left, rgb(238, 238, 238) 0%,rgb(74, 54, 133) 100%);
+    background:linear-gradient(to left, rgb(238, 238, 238) 0%,rgb(74, 54, 133) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cccccc',GradientType=0 );
+    width: 100%;
+    top: 0;
+    left: 0
+}
+.contactPage .right.addresses {
+    padding: 0;
+    vertical-align: middle;
+    /*text-align: center;*/
+}
+.contactPage .addresses img{
+    max-width: 300px;margin: auto;margin-bottom: 20px;
+}
+.accordion--faq{
+    margin: 50px auto;
+}
+.accordion--faq .heading_1{
+    text-align: left;
+}
+.accordion--faq .heading_1:before{
+    content: "?";
+    color: #fff;
+    background: #3c2f8d;
+    border-radius: 50%;
+    padding: 3px 10px;
+    font-size: 22px;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+.accordion--faq .accordion__question{
+    max-width: 700px;
+}
+.accordion--faq .accordion__question:last-child {
+    border-bottom: 1px solid #eeeeee;
+}
+.accordion--faq .accordion__header {
+    border-top: 1px solid #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 0.031em;
+    line-height: 2.3;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+.accordion--faq .accordion__header:hover span, .accordion--faq .accordion__header:focus span {
+    color: white;
+}
+.accordion--faq .accordion__header.is-active span {
+    color: white;
+}
+.accordion--faq .accordion__header.is-active span:before {
+    content: "\e0c4";
+}
+.accordion--faq .accordion__header span {
+    display: inline-block;
+    color: #4e606d;
+    line-height: 2.3;
+    float: right;
+}
+.accordion--faq .accordion__heading {
+    display: inline-block;
+    margin: 0;
+    font-family: 'GothamBold';
+    font-size: 18px;
+}
+.accordion--faq .accordion__content {
+    display: none;
+    padding: 1em;
+}
