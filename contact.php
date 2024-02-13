@@ -22,7 +22,7 @@
                             <h2 class="heading_1">ADDRESSES</h2>
                             
                             <div class="address" itemscope itemtype="http://schema.org/LocalBusiness">
-                                <h1><span itemprop="name">Youth Leadership Development Foundation  </span></h1>
+                                <h1><span itemprop="name">Brian's car page  </span></h1>
                                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                     <span itemprop="addressLocality">Mujahed St. , Next to Ministry of Transportation , In-front of Kuwaiti Embassy  </span>
                                     <h2 class="heading_2">Contact</h2>
@@ -39,7 +39,7 @@
 
                     <div class="left">
                         <img src="images/reciption.jpg"
-                             alt="Youth Leadership Development Foundation "/>
+                             alt="Brian's car page "/>
                     </div>
                 </div>
             
