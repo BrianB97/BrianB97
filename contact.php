@@ -24,13 +24,13 @@
                             <div class="address" itemscope itemtype="http://schema.org/LocalBusiness">
                                 <h1><span itemprop="name">Brian's car page  </span></h1>
                                 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                    <span itemprop="addressLocality">Mujahed St. , Next to Ministry of Transportation , In-front of Kuwaiti Embassy  </span>
+                                    <span itemprop="addressLocality">Nederland</span>
                                     <h2 class="heading_2">Contact</h2>
                                     <span itemprop="streetAddress">P.O Box: 14321</span>
                                 </div>
-                                <span itemprop="telephone"> Phone: + (967-1) 510-447/ + (967-1) 240-355</span>
+                                <span itemprop="telephone"> Phone: 0612345654</span>
                                 <span itemprop="fax"> Fax: </span>
-                                <span itemprop="email"> information@yldf.org</span>
+                                <span itemprop="email"> information@carpage.org</span>
                             </div>
                         </div>
 
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="left">
-                        <img src="images/reciption.jpg"
+                        <img src="images/contact.jpg"
                              alt="Brian's car page "/>
                     </div>
                 </div>
