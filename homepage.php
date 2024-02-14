@@ -74,7 +74,7 @@
                     <div class="video-container" data-example-id="responsive-embed-16by9-iframe-youtube">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" id="video"
-                                    src="//https://www.youtube.com/watch?v=t1MbGnFpwIA&pp=ygUOYmVhdXRpZnVsIGNhcnM%3D;controls=1;showinfo=0;rel=0;fs=1"
+                                    src="//https://www.youtube.com/embed/t1MbGnFpwIA?modestbranding=1;controls=1;showinfo=0;rel=0;fs=1"
                                     allowfullscreen=""></iframe>
                         </div>
                     </div>
