@@ -28,7 +28,7 @@
                             <ul class="clearfix">
                                 <li class="link clearfix">
                                     <img src="images/gtr-car-in-forest.jpg"
-                                         class="icon" alt="Shatha wants to say something"/>
+                                         class="icon" alt="Nissan GTR R34"/>
                                          <div><h1>
                     
 
@@ -38,8 +38,8 @@
                                 </li>
                                 <li class="link clearfix">
 
-                                    <img src="images/emad.jpg"
-                                         class="icon" alt="Hard Equation"/>
+                                    <img src="images/nissan gtr r35 wallpaper.jpg"
+                                         class="icon" alt="Nissan GTR R35"/>
                                          <div><h2>
                             <p class="education">Hard Equation</p>
                         </h2>
