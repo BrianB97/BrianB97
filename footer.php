@@ -18,12 +18,12 @@
                 <div class="col-6">
                
                 <ul class="social clearfix">
-            <li class="twitter"><a href="https://twitter.com/YLDFYemen" target="_blank"><strong>Twitter</strong></a>
+            <li class="twitter"><a href="https://twitter.com/brian_B_97_" target="_blank"><strong>Twitter</strong></a>
             </li>
-            <li class="facebook"><a href="https://www.facebook.com/YLDFYemen/" target="_blank"><strong>Facebook</strong></a></li>
-            <li class="youtube"><a href="https://www.youtube.com/user/YLDFYMN" target="_blank"><strong>youtube</strong></a>
+            <li class="facebook"><a href="https://www.facebook.com/brian.berns.35" target="_blank"><strong>Facebook</strong></a></li>
+            <li class="youtube"><a href="https://www.youtube.com/@Brianb97" target="_blank"><strong>youtube</strong></a>
             </li>
-            <li class="instagram"><a href=" https://www.instagram.com/yldfyemen/" target="_blank"><strong>instagram</strong></a>
+            <li class="instagram"><a href="https://www.instagram.com/brianb__/" target="_blank"><strong>instagram</strong></a>
             </li>
         </ul>
                 
