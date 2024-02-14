@@ -5,7 +5,7 @@
         <div class="parallexContainer outer-width" style="   background-color: #3c2f8d;">
             <div class="parallex">
                 <div id="background" class="mouse-bg"
-                     style="background-image: url('images/Find us.png');"></div>
+                     style="background-image: url('images/Find us2.png');"></div>
                 <div id="foreground" class="mouse-bg">
                     <h1 class="title">
                         <small>   Find us</small>
