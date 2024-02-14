@@ -32,7 +32,7 @@
                                          <div><h1>
                     
 
-                    <p class="afbeelding">Shatha wants to say something</p>
+                    <p class="afbeelding">Nissan GTR R34</p>
                 </h1>
                 </div>
                                 </li>
@@ -41,17 +41,17 @@
                                     <img src="images/nissan gtr r35 wallpaper.jpg"
                                          class="icon" alt="Nissan GTR R35"/>
                                          <div><h2>
-                            <p class="education">Hard Equation</p>
+                            <p class="education">Nissan GTR R35</p>
                         </h2>
                         
                     </div>
                                 </li>
                                 <li class="link clearfix">
 
-                                    <img src="images/Wael Success story.jpg"
-                                         class="icon" alt="[UIAP] Wael Success Story"/>
+                                    <img src="images/nissan gtr r35 forest wallpaper.jpg"
+                                         class="icon" alt="nissan gtr r35 forest wallpaper"/>
                                          <div><h2>
-                            <p class="succes_story">[UIAP] Wael Success Story</p>
+                            <p class="succes_story">Nissan GTR R35</p>
                         </h2>
                       </div>
                                 </li>
