@@ -4,7 +4,7 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                                             <div class="swiper-slide"><img
-                                    src="images/instadonate.jpg"
+                                    src="images/donation.png"
                                     alt=""/></div>
                                     </div>
             </div>
@@ -106,7 +106,7 @@ if (isset($_POST['submit'])) {
                    <div class="col-2" style="background-color:lightblue">
                         <form method="POST"  class="form-container " id="contact-form">
 
-                        <div class="heading_1">Donate to YLDF</div>
+                        <div class="heading_1">Donate to Brian's car page</div>
 
                         
                         <div class="amount">
