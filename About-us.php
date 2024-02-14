@@ -26,20 +26,13 @@
            <div class="page_content" id="print">
             <div class="paragraphs">
                 <div class="paragraphs-container">
-                <h1>Who We Are</h1>
-        <p><strong>YLDF Vision, Mission and Values</strong></p>
-        <p>Our vision is a Yemen in which skilled, well qualified and active young women and men play leadership roles in all domains of society and enable Yemenis to contribute to a better world.<strong> </strong></p>
-        <p>Our mission is &ldquo;to increase male and female youth participation in development of their communities through high standards of quality education and participatory and action oriented training and youth NGOs and initiatives capacity building over all Yemeni governorates in response to development and labor market needs.&rdquo;</p>
-        <p>YLDF works in light of the following values:</p>
-        <ul><li> Quality Assurance</li>
-        <li>Non- Discrimination</li>
-        <li>Gender Equity</li>
-        <li>Respect of Human Rights</li>
-        <li>Fostering Creativity</li>
-        <li>Participation</li>
-        <li>Continuous Improvement</li>
-        <li>Volunteerism</li>
-        <li>Sustainability</li></ul>
+                <h1>Wie ben ik</h1>
+        <p><strong>Hi mijn naam is Brian</strong></p>
+        <p><strong>Dit is mijn website over verschillende soorten auto's</strong></p>
+        <p>Bbbbbbbbbbbbbbbbbbbbbb</p>
+        <ul><li>Race</li>
+        <li>Rally</li>
+        <li>Snelheid</li></ul>
       
                     </div>
                 </div>
