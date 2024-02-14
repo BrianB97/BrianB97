@@ -83,7 +83,7 @@ include($_SERVER['DOCUMENT_ROOT']."\GitHub\BrianB97\connection.php") ;
             <!-- <a href="/"> -->
 
 
-            <img src="images/burning wheel.png" alt=""/> </a></h1>
+            <img src="images/burning wheel.jpg" alt=""/> </a></h1>
                 <nav>
             <div class="mobile CloseMenu">
             </div>
