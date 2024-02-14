@@ -5,7 +5,7 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="images/YLP1.jpg" alt=""/>
+                        <img src="images/nissan gtr r35 forest wallpaper.jpg" alt=""/>
 
                     </div>
 
