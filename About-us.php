@@ -44,37 +44,38 @@
 
         <section class="partners">
             <div class="site-width">
-                <h2 class="heading_1">Our Partners</h2>
+                <h2 class="heading_1">Partners</h2>
                 <ul data-display=1 data-group=5>
                                            
-                <li style="background-image: url('images/3.jpg');">
-                            <h2>Netherlands Ministry of Foreign Affairs </h2>
-                                                            <a target="_blank" href="https://www.government.nl/ministries/ministry-of-foreign-affairs"></a>
+                <li style="background-image: url('images/belastingdienst.jpg');">
+                            <h2>Belastingdienst </h2>
+                                                            <a target="_blank" href="https://www.belastingdienst.nl/wps/wcm/connect/nl/home/home"></a>
                                                     </li>
                                           
                                            
-                                            <li style="background-image: url('images/14.jpg');">
-                            <h2>Yemen Government </h2>
+                                            <li style="background-image: url('images/red-bull-racing.jpg');">
+                            <h2>RedBull Racing</h2>
+                                                            <a target="_blank" href="https://www.redbullracing.com/int-en"></a>
                                                     </li>
                                            
                                             <li style="background-image: url('images/23.gif');">
                             <h2>Total</h2>
                                                             <a target="_blank" href="https://www.total.com/en"></a>
                                                     </li>
-                                            <li style="background-image: url('images/24.jpg');">
-                            <h2>UNICEF</h2>
-                                                            <a target="_blank" href="https://www.unicef.org/"></a>
+                                            <li style="background-image: url('images/ferrari.png');">
+                            <h2>Ferrari</h2>
+                                                            <a target="_blank" href="https://www.ferrari.com/en-NL/"></a>
                                                     </li>
                                             
                                             
-                                            <li style="background-image: url('images/29.jpg');">
-                            <h2>Yemen LNG Company</h2>
-                                                            <a target="_blank" href="www.yemenlng.com/"></a>
+                                            <li style="background-image: url('images/shell.png');">
+                            <h2>Shell</h2>
+                                                            <a target="_blank" href="https://www.shell.nl/"></a>
                                                     </li>
                                             
-                                            <li  style="background-image: url('images/saxion.jpg');">
-                            <h2>Saxion</h2>
-                                                            <a target="_blank" href="https://www.saxion.edu/"></a>
+                                            <li  style="background-image: url('images/wrc.png');">
+                            <h2>WRC</h2>
+                                                            <a target="_blank" href="https://www.wrc.com/"></a>
                                                     </li>           
                     
 
@@ -84,9 +85,9 @@
         </section>
         <section class="move">
             <div class="site-width para_1">
-                <h3 class="heading_1">YLDF Team</h3>
+                <h3 class="heading_1">Team</h3>
                 <p></p>
-                <img src="images/yldfteam3.jpg"
+                <img src="images/car guy.jpg"
                              alt=""/>
             </div>
         </section>
