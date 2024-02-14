@@ -2,7 +2,7 @@
       
 
         <section class="contactpagina">
-        <div class="parallexContainer outer-width" style="   background-color: #3c2f8d;">
+        <div class="parallexContainer outer-width" style="   background-color: rgba(60, 47, 141, 0.5);">
             <div class="parallex">
                 <div id="background" class="mouse-bg"
                      style="background-image: url('images/Find us2.png');"></div>
