@@ -27,7 +27,7 @@
                             <h2 class="heading_1">Success Stories</h2>
                             <ul class="clearfix">
                                 <li class="link clearfix">
-                                    <img src="images/Shatha.jpg"
+                                    <img src="images/gtr-car-in-forest.jpg"
                                          class="icon" alt="Shatha wants to say something"/>
                                          <div><h1>
                     
