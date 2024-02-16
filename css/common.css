@@ -1142,24 +1142,24 @@ footer ul li:hover {
     left: -200%;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    opacity: 0.3;
-}
-
-.color #background:before {
     opacity: 0.9;
 }
+
+/* .color #background:before {
+    opacity: 0.9;
+} */
 
 #background:after {
     background-color: #fff;
     left: 0;
     -webkit-transform: translateX(41.42%) rotate(-45deg);
     transform: translateX(41.42%) rotate(-45deg);
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
-.color #background:after {
+/* .color #background:after {
     opacity: 0.4;
-}
+} */
 
 .mouse-bg {
     left: 0;
@@ -1171,7 +1171,7 @@ footer ul li:hover {
 
 #background {
     background-repeat: no-repeat;
-    opacity: 0.0;
+    opacity: 0.9;
     -webkit-transition: opacity 0.8s;
     -moz-transition: opacity 0.8s;
     -ms-transition: opacity 0.8s;
@@ -1180,7 +1180,7 @@ footer ul li:hover {
 }
 
 .parallexContainer:not(.color) .parallex:hover #background {
-    opacity: 0.7;
+    opacity: 0.9;
 
 }
 
